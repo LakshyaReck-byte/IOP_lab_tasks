@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("how many rows you want? ");
+    scanf("%d", &n);
+    for(int i = 0; i<n; i++){
+        for(int j = 0; j<= i; j++ ){
+            printf("%c", 'A' + i);
+        }
+        printf("\n");
+    }
+    return 0;
+}
